@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
-    int num, d, rem, power, sum = 0, temp;
+    int num, rem, power, sum = 0, temp;
     printf("enter a number : ");
     scanf("%d", &num);
     temp = num;
