@@ -5,6 +5,11 @@ void main()
     int a[10], n, i, search, found;
     printf("enter number of elements : ");
     scanf("%d", &n);
+    if(n < 1) 
+    {
+        printf("invalid number");
+        return;
+    }
     printf("enter %d numbers : ", n);
     for (i = 0; i < n; i++)
     {
