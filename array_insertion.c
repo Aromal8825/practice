@@ -6,6 +6,11 @@ void main()
     int *arr, n, i, new, pos;
     printf(" enter number of elements : ");
     scanf("%d", &n);
+    if(n < 1) 
+    {
+        printf("invalid number");
+        return;
+    }
     arr = (int *)malloc(n * sizeof(int));
     printf(" enter %d numbers : ", n);
     for (i = 0; i < n; i++)
